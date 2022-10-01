@@ -13,7 +13,7 @@
 <body>
     <header>
         <!-- header start form here -->
-<section class=" conatiner bg-primary  p-5 mb-4">
+<section class="  bg-primary  p-5 mb-4">
    
     <div class="text-center text-white">
         <h1>Selct Your best Striker</h1>
@@ -37,9 +37,9 @@
             <div class="card" style="width: 18rem;">
                 <img src="./images/messi.jpg" class="card-img-top img-fluid" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Lionel Andrés Messi</h5>
+                  <h5 id="messi" class="card-title " >Lionel Andrés Messi</h5>
                   <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                  <a href="#" id="" class="btn btn-primary">Select</a>
+                  <a href="#" id="btn-messi" class="btn btn-primary playerName">Select</a>
                 </div>
               </div>
 
@@ -47,9 +47,9 @@
               <div class="card" style="width: 18rem;">
                 <img src="./images/dibala.jpg" class="card-img-top img-fluid" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Paulo  Dybala</h5>
+                  <h5 class="card-title" id="dybala">Paulo  Dybala</h5>
                   <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                  <a href="#" id="" class="btn btn-primary">Select</a>
+                  <a href="#" id="btn-dybala" class="btn btn-primary">Select</a>
                 </div>
               </div>
 
@@ -57,9 +57,9 @@
               <div class="card" style="width: 18rem;">
                 <img src="./images/mbappe.jpg" class="card-img-top img-fluid" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Kylian Mbappé Lottin</h5>
+                  <h5 class="card-title" id="mbappe">Kylian Mbappé Lottin</h5>
                   <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                  <a href="#" id="" class="btn btn-primary">Select</a>
+                  <a href="#" id="btn-mbappe" class="btn btn-primary">Select</a>
                 </div>
               </div>
 
@@ -67,9 +67,9 @@
               <div class="card" style="width: 18rem;">
                 <img src="./images/neymar.jpg" class="card-img-top img-fluid" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Neymar da Silva Santos Júnior</h5>
+                  <h5 class="card-title" id="neymar">Neymar da Silva Santos Júnior</h5>
                   <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                  <a href="#" id="" class="btn btn-primary">Select</a>
+                  <a href="#" id="btn-neymar" class="btn btn-primary">Select</a>
                 </div>
               </div>
 
@@ -77,9 +77,9 @@
               <div class="card" style="width: 18rem;">
                 <img src="./images/ronaldo.jpg" class="card-img-top img-fluid" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Cristiano Ronaldo dos Santos Aveiro</h5>
+                  <h5 id="ronaldo" class="card-title">Cristiano Ronaldo dos Santos Aveiro</h5>
                   <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                  <a href="#" id="" class="btn btn-primary">Select</a>
+                  <a href="#" id="btn-ronaldo" class="btn btn-primary">Select</a>
                 </div>
               </div>
 
@@ -87,9 +87,9 @@
               <div class="card" style="width: 18rem;">
                 <img src="./images/salah.jpg" class="card-img-top img-fluid" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Mohamed Salah Ghaly</h5>
+                  <h5 id="salah" class="card-title">Mohamed Salah Ghaly</h5>
                   <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                  <a href="#" id="" class="btn btn-primary">Select</a>
+                  <a href="#" id="btn-salah" class="btn btn-primary">Select</a>
                 </div>
               </div>
 
@@ -100,14 +100,11 @@
         <div class="w-25 m-2">
             <!-- selected striker V -->
             <div class="mb-2">
-                <h14>Select Your Top Striker</h14>
-                <ol class="list-group list-group-numbered">
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Cras justo odio</li>
-                  </ol>
+                <h4 class="text-danger">Select Your Top Striker</h4>
+                <ul id="player-list" class="list-group list-group-numbered">
+                  
+                    
+                  </ul>
             </div>
             <!-- Budget Calculation -->
             <div>
@@ -124,7 +121,7 @@
             </div>
             <!-- player expenses -->
             <div >
-              <h4>Player expenses: $<span id="player-expense-field">5000</span></h4>
+              <h4 class="text-warning">Player expenses: $<span id="player-expense-field">5000</span></h4>
            <div class="d-flex">
             <div> 
               <h5>Manager:</h5>
@@ -170,6 +167,7 @@
 
     <!-- js file added here -->
     <script src="./js/utilities.js"></script>
+    <script src="js/append.js"></script>
     <script src="./js/calculate.js"></script>
     <script src="./js/calculateTotal.js"></script>
 
