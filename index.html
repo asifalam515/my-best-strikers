@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Striker 2022</title>
+    <!-- add bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <!-- css file linked -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <!-- header start form here -->
+<section class=" conatiner bg-primary  p-5 mb-4">
+   
+    <div class="text-center text-white">
+        <h1>Selct Your best Striker</h1>
+        <p>World cup is coming.Qatar is waiting to see world greatest show.Striker are ready to goal.So select your best striker who will score best.</p>
+    </div>
+   
+    
+
+</section>
+    </header>
+<!-- header section finished -->
+
+    <main>
+        <!-- main section started -->
+        <section>
+            <!-- flex parent here -->
+            <div class="d-flex">
+                <!-- card parent -->
+            <div class="container mt-2 cards w-75">
+                <!-- card no -1 -->
+            <div class="card" style="width: 18rem;">
+                <img src="./images/messi.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lionel Andrés Messi</h5>
+                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  <a href="#" id="btn-select" class="btn btn-primary">Select</a>
+                </div>
+              </div>
+
+              <!-- card no-2 -->
+              <div class="card" style="width: 18rem;">
+                <img src="./images/dibala.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Paulo  Dybala</h5>
+                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  <a href="#" id="btn-select" class="btn btn-primary">Select</a>
+                </div>
+              </div>
+
+              <!-- card no-3 -->
+              <div class="card" style="width: 18rem;">
+                <img src="./images/mbappe.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Kylian Mbappé Lottin</h5>
+                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  <a href="#" id="btn-select" class="btn btn-primary">Select</a>
+                </div>
+              </div>
+
+              <!-- card no 4 -->
+              <div class="card" style="width: 18rem;">
+                <img src="./images/neymar.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Neymar da Silva Santos Júnior</h5>
+                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  <a href="#" id="btn-select" class="btn btn-primary">Select</a>
+                </div>
+              </div>
+
+              <!-- card no 5 -->
+              <div class="card" style="width: 18rem;">
+                <img src="./images/ronaldo.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cristiano Ronaldo dos Santos Aveiro</h5>
+                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  <a href="#" id="btn-select" class="btn btn-primary">Select</a>
+                </div>
+              </div>
+
+              <!-- card no 5 -->
+              <div class="card" style="width: 18rem;">
+                <img src="./images/salah.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mohamed Salah Ghaly</h5>
+                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  <a href="#" id="btn-select" class="btn btn-primary">Select</a>
+                </div>
+              </div>
+
+             
+
+        </div>
+        <!-- right side things parent -->
+        <div class="w-25 m-2">
+            <!-- selected striker V -->
+            <div class="mb-2">
+                <h14>Select Your Top Striker</h14>
+                <ol class="list-group list-group-numbered">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Cras justo odio</li>
+                  </ol>
+            </div>
+            <!-- Budget Calculation -->
+            <div>
+                <h4 class="text-primary">Budget:</h4>
+                <div class="d-flex" >
+                    <label for="">Per Player: </label>
+                    <input id="per-player-field" type="text">
+                    
+                </div> 
+                <button id="calculate-btn" type="button" class="btn btn-primary m-2 px-4 ">Calculate</button>
+                <hr>
+              
+                
+            </div>
+            <!-- player expenses -->
+            <div >
+              <h4>Player expenses: $<span id="player-expense-field">5000</span></h4>
+           <div class="d-flex">
+            <div> 
+              <h5>Manager:</h5>
+            </div>
+              <div>
+                <input id="manager-input-field" type="text">
+              </div>
+           </div>
+           <div class="d-flex">
+            <div> 
+              <h5>Coach:</h5>
+            </div>
+              <div>
+                <input id="coach-input-field" type="text">
+              </div>
+           </div>
+
+            </div>
+            <a href="#" id="btn-select" class="btn btn-primary">Calculate Total</a>
+            <hr class="bg-primary">
+            <div class="d-flex justify-content-center">
+              <label for="">Total:</label>
+              <h3>$ <span id="total-amount">5000</span></h3>
+            </div>
+
+
+
+        </div>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+
+    <!-- bootstrap js CDN added -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+
+    <!-- js file added here -->
+    <script src="./js/calculate.js"></script>
+</body>
+</html>
