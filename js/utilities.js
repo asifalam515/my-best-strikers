@@ -31,16 +31,13 @@ if(liNumber>5){
 
 })
 }
-// disable button:
-/*
-<button id="myBtn" onclick="myFunction()">Try it</button>
+// disbale button
+function myFunction(id) {
+    document.getElementById(id).disabled = true;
+    
+  }
 
-
-function myFunction() {
-  document.getElementById("myBtn").disabled = true;
-}
-*/
-
+  
 
 
 function getValueFromInputById(inputId){
