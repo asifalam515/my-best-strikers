@@ -3,26 +3,32 @@ document.getElementById(btnId).addEventListener('click',function(){
         // 1.where to add
     
 const playerList=document.getElementById('player-list')
-// 2.what to be add
-const li=document.createElement('li')
 
-
-// 3.add the child
-playerList.appendChild(li)
-
-
-    const name=document.getElementById(nameId).innerText
-   li.innerText=name
-   playerList.appendChild(li)
-
-//    ---------------
 let list = playerList.childNodes;
 let extraList=list.length
 let liNumber=extraList-1
 
+if(liNumber<5){
+    const li=document.createElement('li')
+playerList.appendChild(li)
+const name=document.getElementById(nameId).innerText
+li.innerText=name
+playerList.appendChild(li)
+}else{
+    alert("please select less than or equal 5 Stiker")
+}
+
+
+
+  
+
+//    ---------------
+
+
 
 
 if(liNumber>5){
+   
     alert ("Please Select less than 5 striker")
 }
 

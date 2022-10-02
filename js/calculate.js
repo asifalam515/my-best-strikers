@@ -16,8 +16,6 @@ let liNumber=extraList-1
 
     // number of player:
     const numberOfPlayer=liNumber
-    console.log(numberOfPlayer)
-    
     
     // take player expense field
     const playerExpenseElement=document.getElementById('player-expense-field')
