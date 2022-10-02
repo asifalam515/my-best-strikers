@@ -19,13 +19,12 @@ let liNumber=extraList-1
     
     // take player expense field
     const playerExpenseElement=document.getElementById('player-expense-field')
-    // const previousPlayerExpenseString=playerExpenseElement.innerText
-    const previousPlayerExpense=getFieldValueById('player-expense-field')
+   
    
  
 
 // calculation:
-const playerCost=(numberOfPlayer*perPlayerCost)+previousPlayerExpense
+const playerCost=(numberOfPlayer*perPlayerCost)+0
 
 
 

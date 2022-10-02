@@ -27,10 +27,7 @@ playerList.appendChild(li)
 
 
 
-if(liNumber>5){
-   
-    alert ("Please Select less than 5 striker")
-}
+
 
 
 
