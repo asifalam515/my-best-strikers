@@ -51,7 +51,7 @@ function getValueFromInputById(inputId){
         return 0;
     }
     else{
-        element.value=''
+        // element.value=''
     return elementValue
     }
 
